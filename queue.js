@@ -38,6 +38,7 @@
 // queue.dequeue()
 // queue.dequeue()
 // console.log(queue.isEmpty());
+//recussive quuee
 class Queue{
     constructor(){
         this.item={}
