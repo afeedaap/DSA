@@ -4,14 +4,11 @@ class Node {
         this.next = null;
     }
 }
-
 class LinkedList {
     constructor() {
         this.head = null;
     }
-
-    
-    append(value) {
+append(value) {
         const newNode = new Node(value);
         if (!this.head) {
             this.head = newNode;
@@ -31,6 +28,7 @@ class LinkedList {
             current = current.next;
         }
     }
+    
 }
 
 const list = new LinkedList();
