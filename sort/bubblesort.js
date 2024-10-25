@@ -12,9 +12,11 @@ function bubblesort(arr){
     }
     }
     while(swapped)
-        // return arr
+      
 }
 const arr=[4,-12,56,23,7]
 bubblesort(arr)
 console.log(arr);
- console.log(bubblesort([1,-1,89,12,-2]))
+
+
+

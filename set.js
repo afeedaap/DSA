@@ -4,7 +4,7 @@ console.log(set.has(43))
 set.delete(3)
 console.log(set.size);
 set.clear()
-console.log(set);//no vlaue in the console
+console.log(set);
 for(let item of set){
     console.log(item);
 }

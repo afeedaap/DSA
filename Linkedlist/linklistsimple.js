@@ -71,7 +71,7 @@ removalofitem(index){
         let removedNode;
         if(index===0){
             removedNode=this.head
-            this.head=this.head,next
+            this.head=this.head.next
         }
         else{
             let prev=this.head

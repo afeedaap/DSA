@@ -1,12 +1,12 @@
-// function dulicate(arr){
-//     let result=[]
-//     for(let i=0;i<arr.length;i++){
-//         if(!result.includes(arr[i]))
-//             result.push(arr[i])
-//     }
-//     return result
-// }
-// console.log(dulicate([1,3,1,1,4,5,6]))
+function dulicate(arr){
+    let result=[]
+    for(let i=0;i<arr.length;i++){
+        if(!result.includes(arr[i]))
+            result.push(arr[i])
+    }
+    return result
+}
+console.log(dulicate([1,3,1,1,4,5,6]))
 //without creating new array
 function duplicate(arr){
     for(let i=0;i<arr.length;i++){
