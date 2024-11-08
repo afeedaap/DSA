@@ -26,7 +26,7 @@ class Stack{
         if(this.isEmpty()){
             return "stack is empty"
         }
-        return this.value
+        return this.top.value
     }
     pop(){
         if(this.isEmpty()){
@@ -35,7 +35,7 @@ class Stack{
         let popnode=this.top
         this.top=this.top.next
         this.size--
-        return this.popnode.value
+        return popnode.value
 
         
     }
@@ -54,4 +54,7 @@ console.log(stack.isEmpty())
 stack.push(10)
 stack.push(20)
 stack.push(30)
+stack.print()
+console.log(stack.peek())
+stack.pop()
 stack.print()
