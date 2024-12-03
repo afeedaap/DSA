@@ -67,7 +67,7 @@ trie.insert("apple")
 trie.insert("app")
 trie.insert("ape")
 console.log(trie.search("app"))
-console.log(trie.startWith("appppp"))
+// console.log(trie.startWith("appppp"))
 console.log(trie.suggest("app"))
 
  
